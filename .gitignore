@@ -3,3 +3,10 @@ node_modules
 .prettierignore
 .prettirrc
 .package-lock.json
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

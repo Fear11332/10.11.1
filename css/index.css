@@ -82,6 +82,10 @@ main {
   margin-top: 10px;
 }
 
+.line{
+  border: #008cba;
+}
+
 /* Список экзотических фруктов */
 .fruits__wrapper {
   flex-basis: 75%;
@@ -111,11 +115,23 @@ main {
   background: #8b00ff;
 }
 
+.fruit_orange {
+  background: orange;
+}
+
+.fruit_blue {
+  background: blue;
+}
+
+.fruit_darkblue {
+  background: darkblue;
+}
+
 .fruit_green {
   background: #84cd1b;
 }
 
-.fruit_carmazin {
+.fruit_red {
   background: #dc143c;
 }
 
@@ -123,7 +139,7 @@ main {
   background: #ffd800;
 }
 
-.fruit_lightbrown {
+.fruit_brown {
   background: #cd853f;
 }
 

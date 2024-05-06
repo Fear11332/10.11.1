@@ -19,13 +19,13 @@
 
           <div class="line">
             <!-- пользователь указывает нижнюю границу weight -->
-            <div>min weight:</div>
+            <div>Минимальный вес:</div>
             <input class="minweight__input" />
           </div>
 
           <div class="line">
             <!-- пользователь указывает верхнюю границу weight -->
-            <div>max weight:</div>
+            <div>Максимальный вес:</div>
             <input class="maxweight__input" />
           </div>
 
@@ -50,19 +50,35 @@
           <!-- TODO: при нажатии происходит сортировка и рассчет времени сортировки -->
           <button class="sort__action__btn line">Сортировать</button>
 
+          <button class="sort__cancel__btn line">Отменить сортировку</button>
+
           <!-- пользователь указывает значения характеристик будущего фрукта -->
+          <div class="line list">
+          <p>Цвет может быть только:</p>
+           <ul>
+              <li>зеленый
+              <li>желтый
+              <li>красный
+              <li>фиолетовый
+              <li>коричневый
+              <li>оранжевый
+              <li>голубой
+              <li>синий
+           </ul>
+          </div>
+          
           <div class="line">
-            <div>kind:</div>
+            <div>Название:</div>
             <input class="kind__input" />
           </div>
 
           <div class="line">
-            <div>color:</div>
+            <div>Цвет:</div>
             <input class="color__input" />
           </div>
 
           <div class="line">
-            <div>weight:</div>
+            <div>Вес:</div>
             <input class="weight__input" />
           </div>
 
@@ -70,7 +86,7 @@
           <button class="add__action__btn line">Добавить фрукт</button>
 
           <!--при нажатии сбрасываются все результаты и откатываются на начальный массив-->
-          <button class="add__action__btn line" id="drop">Сброс результатов</button>
+          <button class="add__action__btn line" id="drop">Сброс всех результатов</button>
         </div>
       </section>
 
